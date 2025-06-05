@@ -12,10 +12,10 @@ services:
       - key: FLASK_ENV
         value: production
       - key: DB_USERNAME
-        sync: false
+        sync: postgres
       - key: DB_PASSWORD
-        sync: false
+        sync: postgres
       - key: DB_HOST
-        sync: false
+        sync: localhost
       - key: DB_NAME
-        sync: false
+        sync: trao
